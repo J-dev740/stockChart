@@ -1,7 +1,6 @@
 import React, { useCallback, useEffect, useState } from "react";
 import CallsTable from "./components/CallsTable";
 import PutsTable from "./components/PutsTable";
-import { TbArrowZigZag } from "react-icons/tb";
 import { FaAngleDown, FaArrowUp } from "react-icons/fa6";
 import { FaArrowDown } from "react-icons/fa";
 // import StrikeColumn from './StrikeColumn';
@@ -9,6 +8,7 @@ import data from "./data.json"; // Your sample data
 import "./App.css";
 import { AiTwotoneQuestionCircle } from "react-icons/ai";
 import { CiPlay1 } from "react-icons/ci";
+import { TbArrowZigZag } from "react-icons/tb";
 
 function App() {
   let call_minOi = 0;
